@@ -21,4 +21,4 @@ As it stands, the `console.log("Sanity Check: JS is working!");` isn't even show
 
 Recognize that this code previews some work we'll be doing today and tomorrow with JQuery. You don't need to understand all of the syntax to read the error messages and begin to correct the problems.
 
-Update the project code to fix the problems described in the comments. Note: the last one (alerting 0-4) is a stretch.
+Update the project code to fix the problems described in the comments. 
