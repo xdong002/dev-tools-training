@@ -12,7 +12,7 @@ $(document).ready(function(){
 	addSubHeader();
 
 
-	// the form redirects when it should just update the count of "E"s
+	// the form outputs 0 every time when it should count the number of "E"s
 	$('form').on('submit', function(e){
 		e.preventDefault();
 		console.log('form submitted');
@@ -24,10 +24,10 @@ $(document).ready(function(){
 			// this loop doesn't find both es in  "supercalifragilisticexpialidocious"
 			var count = 0;
 			if (input[i] === "e"){
-				count = count +1;
+				count = count + i;
 			}
 			$('#num-es').text(count);
 		}
-	});
+	}));
 
 };
