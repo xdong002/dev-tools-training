@@ -30,20 +30,4 @@ $(document).ready(function(){
 		}
 	});
 
-
-	// all the links alert 5 :(
-	function addLinks () {
-	    var $link;
-	    var $ul = $('ul');
-	    for (var i=0; i<5; i++) {
-	        $link = $('<a href="#" class="btn btn-link"></a>');
-	        $link.html('Link '+i);
-	        $link.on('click', function () {
-	            alert(i);
-	        });
-	        $ul.append($link);
-	    }
-    }
-
-    addLinks();
 };
