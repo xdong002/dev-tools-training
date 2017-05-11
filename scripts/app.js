@@ -12,8 +12,8 @@ $(document).ready(function(){
 	addSubHeader();
 
 
-	$('form').on('submit', function(e){
-		e.preventDefault();
+	$('form').on('submit', function(event){
+		event.preventDefault();
 		console.log('form submitted');
 		var input = $('input').eq(0).val();
 
