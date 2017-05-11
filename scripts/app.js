@@ -12,7 +12,6 @@ $(document).ready(function(){
 	addSubHeader();
 
 
-	// the form redirects when it should just update the count of "E"s
 	$('form').on('submit', function(e){
 		e.preventDefault();
 		console.log('form submitted');
